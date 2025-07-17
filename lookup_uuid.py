@@ -24,7 +24,7 @@ matches = 0 # no match
 for asset in assets:
     try:
         if asset['agent_names'][0] == hostname:
-            print('Found match. Update HKLM\Tenable\TAG or /etc/tenable_tag:')
+            print('Found match. Update HKLM\Software\Tenable\TAG or /etc/tenable_tag:')
             print(asset['agent_uuid'], 'First seen:', asset['first_seen'])
             matches += 1 # update if we found a match
     except:
