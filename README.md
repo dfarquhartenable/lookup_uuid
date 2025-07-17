@@ -1,0 +1,1 @@
+This Python code takes the system's hostname, then looks for a match in Tenable Vulnerability Management (TVM) and prints any matches it finds. Use the output to populate HKLM\Software\Tenable\TAG or /etc/tenable_tag to prevent duplicate assets after system rebuilds.
