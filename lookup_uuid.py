@@ -1,6 +1,6 @@
 # This program looks up a system hostname, then connects to Tenable Vulnerability Management (TVM) and looks for a matching agent UUID.
 # If it finds one or more matches, it prints the agent UUID and the first seen date.
-# Populate /etc/tenable_tag or HKLM\Tenable\TAG with the value with the earliest date to prevent duplicates in TVM when rebuilding a system.
+# Populate /etc/tenable_tag or HKLM\Software\Tenable\TAG with the value with the earliest date to prevent duplicates in TVM when rebuilding a system.
 
 # This code is presented for example purposes and is unsupported.
 
